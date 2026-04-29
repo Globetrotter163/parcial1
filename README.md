@@ -33,5 +33,5 @@ ros2 topic pub /target_position geometry_msgs/msg/Point \
 
 ---
 
-## Observaciones Críticas
+## Observaciones
 Por alguna razón que no comprendo, no puedo visualiar el modelo del robot. Intenté varias veces, pero solo poder visualziarlo a travez del modificador TF
