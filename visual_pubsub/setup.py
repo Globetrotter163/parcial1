@@ -12,15 +12,15 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        # Incluye todos los launch files
+        
         (os.path.join('share', package_name, 'launch'),
             glob('launch/*.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='tu_nombre',
-    maintainer_email='tu@email.com',
-    description='Paquete de cinemática inversa para brazo_custom',
+    maintainer='Alan',
+    maintainer_email='alan.gonzales@ucb.edu.bo',
+    description='cinemática inversa ',
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
